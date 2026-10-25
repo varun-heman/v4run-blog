@@ -1,0 +1,16 @@
+{
+  "name": "v4run-blog",
+  "private": true,
+  "description": "What I think. — the blog at blog.v4.run",
+  "scripts": {
+    "build": "node src/build.js",
+    "dev": "node scripts/dev.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "js-yaml": "4.1.0",
+    "marked": "15.0.12"
+  }
+}

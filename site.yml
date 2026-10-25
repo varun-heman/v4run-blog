@@ -1,0 +1,30 @@
+# Site-wide settings. Change these and rebuild.
+
+title: What I think.
+tagline: Notes on justice, technology, systems — and the roads in between.
+url: https://blog.v4.run          # the live address; used for canonical links and the RSS feed
+language: en
+main_site: https://v4.run          # "← v4.run" link in the header
+default_author: varun              # used when a post has no `author:`
+posts_on_home: 9                   # latest posts on the homepage (the rest live in the archive)
+
+# Comments (see README → "Comments"). Leave turnstile_site_key empty to skip the spam check.
+comments:
+  enabled: true
+  turnstile_site_key: ""
+
+# Categories: each post picks ONE. The key is what you write in a post (`category: essays`).
+# Order here is the order they appear on the site.
+categories:
+  essays:
+    name: Essays
+    description: Longer arguments, worked through slowly.
+  notes:
+    name: Notes
+    description: Short thoughts, half-finished on purpose.
+  field-notes:
+    name: Field Notes
+    description: What I saw in courtrooms, districts and on the road.
+  guides:
+    name: Guides
+    description: How things work, written down so I don't forget.

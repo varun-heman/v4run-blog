@@ -1,0 +1,13 @@
+# Everyone who can be named in a post's `author:` field.
+# The key (e.g. `varun`) is what you write in the post, and becomes /author/varun/.
+# Only `name` is required.
+
+varun:
+  name: Varun Hemachandran
+  bio: Senior Curator at PUCAR, an Agami initiative re-imagining how India resolves disputes. Usually found in the hills, in a cave, or on two wheels along the coast.
+  avatar: /images/authors/varun.jpg
+  url: https://v4.run
+
+guest:
+  name: Guest Writer
+  bio: A placeholder for a guest author. Rename or delete this entry once a real guest writes here.
